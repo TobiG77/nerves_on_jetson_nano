@@ -26,7 +26,9 @@ In order to build the firmware you need to have additional repositories present 
 The nerves_system_jetson_nano requires additional sources
 - linux-tegra-4.9 # from https://github.com/OE4T/linux-tegra-4.9
 
-The nerves_system_jetson_nano expects to use the tegra patched kernel source. I am not sure what the expected method of integration is, but this works:
+The nerves_system_jetson_nano expects to use the tegra patched kernel source. I am not sure what the expected method of integration is, but this successfully compiles.
+
+I have used the branch based off the archive name that seemed to be expecte in the build step.
 
 ```bash
 tar -czv --exclude="*.git" -f ~/.nerves/dl/linux/linux-oe4t-patches-l4t-r32.5.tar.gz linux-tegra-4.9

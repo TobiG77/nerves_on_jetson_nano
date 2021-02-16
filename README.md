@@ -39,8 +39,7 @@ After this you can run the usual steps as outlined in `Getting Started`
 ## Getting Started
 
 To start your Nerves app:
-  * `export MIX_TARGET=my_target` or prefix every command with
-    `MIX_TARGET=my_target`. For example, `MIX_TARGET=rpi3`
+  * `export MIX_TARGET=jetson_nano`
   * Install dependencies with `mix deps.get`
   * Create firmware with `mix firmware`
   * Burn to an SD card with `mix firmware.burn`
